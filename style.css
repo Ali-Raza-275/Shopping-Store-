@@ -1,0 +1,385 @@
+/* globalgoods shoping center */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f80303;
+}
+body, #web_header {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #0015ff, #a300ff, #ff0095);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Home page or front of website*/
+section#home {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+}
+#home{
+    width: auto;
+    text-align: left;
+    background-image: url("img/img/background.jpg ") ;
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+#main-heading{
+    font-size: 80px;
+    color: rgb(0, 238, 255);
+    stroke-width: 0cap;
+    stroke: rgb(4, 1, 1);
+    
+}
+#sub-heading{
+    font-size: 70px;
+    color: rgb(0, 238, 255);
+}
+
+
+/* Header settings */
+#shop-logo{
+    width: 20em;
+    height: 4em;
+    padding-left: 10px;
+}
+header #shop-logo{
+    margin-top: 0px;
+}
+
+#header-btn{
+    border-radius: 15px;
+    background: #9321f7;
+    color: #eee;
+    width: 120px;
+    height: 30px;
+    color: #020202;
+    background: #7972fa;
+}
+#header-btn:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0px;
+    width: 124px;
+    height: 30px;
+    color: #faf6f6;
+    background: #ae02c1;
+    transition: 0.5s;
+}
+#web_header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header {
+    list-style-type: none;
+}
+
+/* Header closed */
+	
+
+
+
+
+/*About Section*/
+
+
+/* Shop settings started */
+#pro_head{
+    text-align: center;
+}
+.product-card #pro_name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+#shop {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#shop :hover{
+    background-color: #020202;
+    color:white;
+    transition: 1s;    
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card #product-img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.product-card #price {
+    font-size: 1.1em;
+    color: #888;
+}
+
+#buy-btn {
+    border-radius: 15px;
+    background: #9321f7;
+    color: #eee;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+#buy-btn:hover{
+    background-color: rgb(249, 3, 3);
+    color: aqua;
+    transition: 1.3s;
+    width: 7em;
+    height: 2.5em;
+    border: aqua 2px solid;
+}
+/* Shop settings closed */
+
+
+
+/* Contant Information started*/
+#contact{
+    display: flex;
+    margin-top: 20px;
+}
+
+#contact .send-msg{
+    padding-left: 25px;
+}
+
+#contact .msg-setting{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact .msg-set{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+#email-btn, #num-btn, #address-btn{
+    background-color: rgb(240, 237, 237);
+    border:none;
+    color: #020202;
+    width: 20em;
+    height: 2em;
+    font-size: 20px;
+    text-align: left;
+}
+#contact .msg-box, .whatsapp-btn{
+    width: 100%;
+    height: 55px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+#msg-area{
+    resize: vertical;
+    width: 100%;
+    height: 120px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.msg-setting .personal-info{
+    display: flex;
+    width: 50%;
+}
+#contact .personal-info {
+    padding-left: 10px;
+    text-align: left;
+}
+#phone-no{
+    margin-top: 35px;
+}
+
+#whatsapp-btn {
+    border-radius: 15px;
+    background: #9321f7;
+    color: #eee;
+}
+
+
+#form-control{
+    margin-left: 1em;
+}
+/* Contant Information closed*/
+
+/* Footer started */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Footer closed */
+
+
+
+
+.main-img{
+    width: 100%;
+    height: 450PX;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.contact-title{
+    margin-left: 1em;
+    font-size: large;
+}
+
+form{
+    margin-left: 1em;
+}
+
+.form-control{
+    height: 3em;
+    width: 37em;
+    
+}
+.form-group{
+    padding: 0.25em;
+}
+.product-card p {
+    font-size: 1.1em;
+    color: #888;
+}
+
+.buy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buy-btn:hover {
+    background-color: #45a049;
+}
+#product-detail{
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+}
+#product-detail{
+    display: flex;
+    margin-top: 20px;
+}
+#product-detail .s-product-img{
+    width: 50%;
+    padding-top: 30px;
+    display: flex;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+} 
+/* second Product Image*/
+#product2-detail{
+    display: flex;
+    margin-top: 20px;
+}
+
+#product2-detail .single-product-img{
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.small-img-group2{
+    display: flex;
+    justify-content: space-between;
+}
+.pro2-small-img{
+    width: 120px;
+    height: 145px;
+}
+
+.pro2-small-img-col{
+    flex-basis: 24%;
+    cursor: pointer; 
+}
+
+#product2-detail .single-product2-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#product2-detail .single-product2-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 110px;
+}
+
+#product2-detail .single-product2-details .no-of-itms{
+    font-size: 16px;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+
+}
+
+#product2-detail .single-product2-details .normal{
+    background: #088178;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+
+}
+
+#product2-detail .single-product2-details span{
+    line-height: 25px;
+}
+

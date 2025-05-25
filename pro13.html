@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 13</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pro-style.css">
+    <script>
+        function sendMessage() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var coment = document.getElementById("msg-area").value;
+
+            // Create a message that will be sent via WhatsApp
+            var message = "Name: " + name + "%0AEmail: " + email +"%0AComment: " + coment;
+
+            // Replace 'yourphonenumber' with your actual WhatsApp number
+            var whatsappUrl = "https://wa.me/+923010688802?text=" + message;
+            // Redirect to WhatsApp
+            window.open(whatsappUrl, "_blank");
+        }
+    </script>
+
+</head>
+<body>
+    <!--Header Started!-->
+    
+    <header id="web_header">
+        <nav class="header">
+            <ul class="header" id="header-id">
+                <img src="img/img/GlobalGoods.jpg" alt="" id="shop-logo" align="left">
+                <br>
+                <a href="index.html #home"><button id="header-btn"><b>Home</button></a>
+                <a href="index.html #shop"><button id="header-btn"><b>Shop</b></button></a>
+                <a href="#new-product"><button id="header-btn"><b>New Product</b></button></a>
+                <a href="index.html #about"><button id="header-btn"><b>About</b></button></a>
+                <a href="#contact"><button id="header-btn"><b>Contact</b></button></a>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Closed -->
+
+    <!-- Main Section (Home Page Started) -->
+    <section id="home" class="home" >
+        <br> <br> <br>
+        <h1 id="main-heading" align="center">Shope With GlobalGoods</h1>
+        <p id="sub-heading">Shop The Best Products At Amazing Prices</p>
+    </section>
+    <!-- Main Section (Home Page Closed) -->
+
+
+    <!-- Product setting started -->
+    <section id="product2-detail" class="product2">
+        <div class="single-product-img">
+            <img src="all product images/Watches/watch 2.1.jpeg" Id="active-image" class="main-img" width="100%"  alt="">
+            
+            <div class="small-img-group2">
+                <div class="pro2-small-img-col">
+                    <img src="all product images/Watches/watch 2.1.jpeg" width="100%" class="pro2-small-img" alt=""  onclick="changeImage(this)">
+                </div>
+                <div class="pro2-small-img-col">
+                    <img src="all product images/Watches/watch 2.2.jpeg" width="100%" class="pro2-small-img" alt=""  onclick="changeImage(this)">
+                </div>
+                <div class="pro2-small-img-col">
+                    <img src="all product images/Watches/watch 2.3.jpeg" width="100%" class="pro2-small-img"alt=""  onclick="changeImage(this)">
+                </div>
+                <div class="pro2-small-img-col">
+                    <img src="all product images/Watches/watch 2.4.jpeg" width="100%" class="pro2-small-img" alt=""  onclick="changeImage(this)">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-product2-details">
+            <h5>Fashion Accessories</h5>
+            <h1>Best Quality Whatch</h1>
+            <h1>PKR: 1400.00</h1>
+            <input type="number" value="1" class="no-of-itms"> <button class="normal">Add To Cart</button>
+            <button class="normal" id="buyButton">Buy Now</button>
+            
+    <!-- Form Container (Initially Hidden) -->
+    <div id="personalInfoForm" class="form-container">
+        <h2>Personal Information</h2>
+        <form id="infoForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required><br><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <button type="submit"  id="header-btn">Submit</button>
+        </form>
+    </div>
+
+
+            <h4>Product Details</h4>
+            <span>Type: Fashion Accessories<br>
+                Number Of Pieces: 12 Pcs <br>
+                Note: Best Quality Whatch, this is very important for you to now about our products are always in same conditation in which you see. 
+                The delivery should take 3 to 5 working days.
+            </span>
+        </div>
+    </section>
+
+    <!-- Product setting closed -->
+
+    <!-- Relater Product started -->
+    <hr color="red" >
+    <section class="related-pro" id="new-product">
+        <div align="center">
+            <h1>New Product</h1>
+            <span align="center">Summer Collection New Modern Design</span>
+            <div class="related-pro-img"> 
+                <a href="pro4.html #product2-detail"><img src="all product images/Ear budds/m10 earbuds 1.1.jpeg" class="related-img"  alt=""></a>
+                <div> 
+                    <a href="pro14.html #product2-detail"><img src="all product images/shows/Shows 1.1.jpeg" class="related-img" alt=""></a>
+                </div>
+                <div> 
+                    <a href="pro15.html #product2-detail"><img src="all product images/shows/Shows 2.1.jpeg" class="related-img" alt=""></a>
+                </div>
+                <div> 
+                    <a href="pro1.html #product2-detail"><img src="all product images/clothes/Abhaya 1.jpeg" class="related-img" alt=""></a>
+                </div>
+                        </div>
+        </div>
+    </section>
+<hr color="red">
+    <!-- Relater Product closed -->
+	<!-- About section started -->
+    <hr color="red">
+    <section id="about" style="text-align: center; padding: 40px;">
+        <h2 id="about-text">About Us</h2>
+        <br>
+        <p>Welcome to <strong>GlobalGoods</strong> – your one-stop shop for quality products at unbeatable prices. We offer a wide range of items from premium Khajoor (dates), smartwatches, T-shirts, and more!</p>
+        <br>
+        
+    
+        <h2>Meet Our Team</h2>
+        <div style="display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; margin-top: 20px;">
+            <!-- Ali Raza -->
+            <div>
+                <img src="img/img/a1.jpg" alt="Ali Raza" width="200" height="200" style="border-radius: 50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+                <h3>Ali Raza Khaskheli</h3>
+                <p>Founder & Developer</p>
+            </div>
+    
+            <!-- Teacher -->
+            <div>
+                <img src="img/img/Sir wahaj.jpeg" alt="Teacher" width="200" height="200" style="border-radius: 50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+                <h3>Sir Wahaj Hassan Soomro</h3>
+                <p>Mentor & Guide</p>
+            </div>
+        </div>
+    
+        <br><br>
+        <h2>Our Services</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>✔️ High-quality, handpicked products</li>
+            <li>✔️ Fast delivery across Pakistan</li>
+            <li>✔️ Secure payment options</li>
+            <li>✔️ 24/7 customer support via WhatsApp</li>
+        </ul>
+    </section>
+	<!-- About section closed --!>
+
+
+
+    	<!--Contact Information Started -->
+        <hr color="red">
+    <section id="contact" class="contact-info">
+        <div class="msg-setting" id="msg-setting">
+            <h1 id="send-msg" class="send-msg" align="left">Send Message</h1><br>
+            <div class="msg-info" id="msg-inf">
+                <form onsubmit="event.preventDefault(); sendMessage();" id="form-control">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" class="msg-box" placeholder="Enter name" required ><br><br>
+                    <input type="email" id="email" name="email" class="msg-box" placeholder="Enter email" required><br><br>
+                    <textarea name="msg-text" id="msg-area" placeholder="Enter your message here... " required></textarea><br><br>
+                    <a href="https://wa.me/+923010688802" target="_blank"><button type="submit" class="whatsapp-btn" id="whatsapp-btn"> Send via WhatsApp</button></a>
+                </form>
+            </div>
+        </div>
+
+        <div id="msg-settings" class="msg-set">
+            <h2 class="personal-info">Personal Information</h2>
+        <div>
+            <h3 class="personal-info" id="phone-no">Phone Number</h3>
+            <a href="https://wa.me/+923010688802" target="_blank">
+            <h4 class="personal-info">
+            <button id="num-btn"> +92 3010688802</button></a>
+            <h3 class="personal-info" id="">Address</h3> <a href="https://www.google.com/maps/place/Khairpur,+Sindh,+Pakistan/@27.5203156,68.7057108,13z/data=!3m1!4b1!4m6!3m5!1s0x3935da5e71caa8b9:0x3a9ffdf3598dfbfd!8m2!3d27.5255625!4d68.7550733!16zL20vMDQzNDJx?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" ><button id="address-btn">Khairpur Mir's, Sindh, Pakistan</button></a>
+            <h3 class="personal-info" id="">E-mail</h3> <a href="mailto:sultanaliraza275@gmail.com"><button id="email-btn">sultanaliraza275@gmail.com</button></a>
+        </div >
+        </div>
+    </section>
+    	<!--Contact Information closed -->
+    
+	<!-- Footer stated -->
+    <footer id="footer">
+        <p>&copy; 2025 Khareedo Sab Sasty Me. All rights reserved.</p>
+    </footer>
+	<!-- Footer closed -->
+
+    <script src="pro.js">
+    </script>
+    <script src="script1.js">
+    </script>
+</body>
+</html>
